@@ -1,15 +1,19 @@
 public class Test {
 
     public static void showAnimal(Animal a) {
+        
         a.eat();
         a.sound();
         System.out.println();
+        
     }
 
     public static void showHuman(Human h) {
+        
         h.work();
         h.speak();
         System.out.println();
+        
     }
 
     public static void main(String[] args) {
@@ -26,5 +30,7 @@ public class Test {
 
         showHuman(h1);
         showHuman(h2);
+        
     }
+    
 }
